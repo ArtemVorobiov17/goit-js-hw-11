@@ -10,7 +10,7 @@ const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 const lightbox = new SimpleLightbox('.gallery a');
 
-let pege = 1;
+let page = 1;
 const per_page = 40;
 
 searchForm.addEventListener('submit', onSearchForm);
