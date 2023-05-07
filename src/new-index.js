@@ -57,12 +57,12 @@ async function getUser(query, page) {
     },
   };
   try {
-    /*const response = await axios.get(BASE_URL, options);
+    const response = await axios.get(BASE_URL, options);
 
     alert(
       response.data.hits.length,
       response.data.total
-    );*/
+    );
 
     createGalleryImg(
       response.data
