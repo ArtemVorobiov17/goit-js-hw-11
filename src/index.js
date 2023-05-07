@@ -1,4 +1,4 @@
-import Notiflix from "notiflix";
+/*import Notiflix from "notiflix";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import { createGalleryImg } from '../src/js/markup-img';
@@ -67,4 +67,4 @@ Notiflix.Notify.success(`Hooray! We found ${totalHits} images.`);
 
 export { gallery };
 export { alert };
-export { pege };
+export { pege };*/

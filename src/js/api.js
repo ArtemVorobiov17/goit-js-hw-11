@@ -1,10 +1,10 @@
-import axios from 'axios'
+/*import axios from 'axios'
 import { createGalleryImg } from './markup-img';
 import { alert } from '../index';
 import { pege } from '../index';
 
 
-let pege = 1;
+let page = 1;
 const per_page = 40;
 
 async function getUser(query, page) {
@@ -34,8 +34,8 @@ async function getUser(query, page) {
     );
 
   } catch (error) {
-    console.error(error);
+    console.log(error);
   }
 }
 
-export { getUser };
+export { getUser };*/

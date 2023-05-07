@@ -1,8 +1,8 @@
-import SimpleLightbox from "simplelightbox";
+/*import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import { gallery } from "../index";
 
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a');*/
 
 /*function createGalleryImg(images) {
   const markup = images
@@ -23,7 +23,7 @@ const lightbox = new SimpleLightbox('.gallery a');
   gallery.insertAdjacentHTML('beforeend', markup);
   lightbox.refresh();
 }*/
-function createGalleryImg(array) {
+/*function createGalleryImg(array) {
     const markup = array.hits
         .map(item =>
             `<a class="photo-link" href="${item.largeImageURL}">
@@ -31,7 +31,7 @@ function createGalleryImg(array) {
             <div class="photo">
             <img src="${item.webformatURL}" alt="${item.tags}" loading="lazy"/>
             </div>
-                    <div class="info">
+              <div class="info">
                         <p class="info-item">
                             <b>Likes</b>
                             ${item.likes}
@@ -55,9 +55,9 @@ function createGalleryImg(array) {
     ).join('');
     gallery.insertAdjacentHTML('beforeend', markup);
     lightbox.refresh();
-}
+}*/
 
 
 
 
-export { createGalleryImg };
+//export { createGalleryImg };
